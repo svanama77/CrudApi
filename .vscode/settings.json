@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/11ee4d22-f8fc-4c7c-bd9d-37d409eb9303/resourceGroups/crudapihostedrg/providers/Microsoft.Web/sites/crudapihosted",
+    "appService.deploySubpath": "."
+}
