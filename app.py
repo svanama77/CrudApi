@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_mysqldb import MySQL
 
+
 app = Flask(__name__)
 
 # MySQL Configuration
@@ -8,6 +9,9 @@ app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'saisrujan'
 app.config['MYSQL_PASSWORD'] = 'saisrujan'
 app.config['MYSQL_DB'] = 'backend'
+
+
+
 
 mysql = MySQL(app)
 
